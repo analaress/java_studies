@@ -9,7 +9,7 @@ public class Condicional {
         if (anoDeLancamento >= 2022) {
             System.out.println("Lançamento recente");
         } else {
-            System.out.println("Filme retrô");
+            System.out.println("Serie.Filme retrô");
         }
 
         int dia = 3;

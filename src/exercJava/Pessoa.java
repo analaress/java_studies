@@ -1,3 +1,5 @@
+package exercJava;
+
 public class Pessoa {
 
     void exibePrint() {

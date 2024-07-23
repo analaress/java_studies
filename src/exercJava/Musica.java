@@ -1,3 +1,5 @@
+package exercJava;
+
 public class Musica {
     String titulo;
     String artista;
