@@ -1,4 +1,4 @@
-package Heranca;
+package estudoHeranca;
 
 public class Titulo {
     private String nome;

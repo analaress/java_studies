@@ -1,6 +1,6 @@
-package Calculo;
-import Heranca.Filme;
-import Heranca.Serie;
+package baseCalculo;
+import estudoHeranca.Filme;
+import estudoHeranca.Serie;
 
 public class CalculadoraDeTempo {
     private int tempoTotal;

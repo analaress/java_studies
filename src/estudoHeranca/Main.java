@@ -1,9 +1,8 @@
-package Heranca;
-import Calculo.CalculadoraDeTempo;
+package estudoHeranca;
+import baseCalculo.CalculadoraDeTempo;
+import baseCalculo.FiltroRecomendacao;
 
-import Calculo.CalculadoraDeTempo;
-
-public class Principal {
+public class Main {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
         meuFilme.setNome("O poderoso chefão");
@@ -34,5 +33,13 @@ public class Principal {
         calculadora.inclui(meuFilme);
         calculadora.inclui(lost);
         System.out.println(calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(meuFilme);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setTotalVisualizacoes(300);
+        filtro.filtra(episodio);
     }
 }

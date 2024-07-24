@@ -1,4 +1,4 @@
-package Heranca;
+package estudoHeranca;
 
 public class Serie extends Titulo {
     private int temporadas;
@@ -6,6 +6,9 @@ public class Serie extends Titulo {
     private boolean ativa;
     private int minutosPorEpisodio;
 
+    public void setAtiva(boolean ativa) {
+        this.ativa = ativa;
+    }
 
     public void setMinutosPorEpisodio(int minutosPorEpisodio) {
         this.minutosPorEpisodio = minutosPorEpisodio;

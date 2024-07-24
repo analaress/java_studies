@@ -1,4 +1,4 @@
-package exercJava;
+package exercMetodos;
 
 public class Carro {
     String modelo;
